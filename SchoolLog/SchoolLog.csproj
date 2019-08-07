@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-SchoolLog-8B4D5BB7-D9E3-4824-BD02-C394672E47F4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeGreat\HomeGreat.Model.csproj" />
+  </ItemGroup>
+
+</Project>
